@@ -1,3 +1,10 @@
+// === NAUJI IMPORTAI ===
+import { WildERPCalculator } from '../lib/product-cards/calculator.js';
+import { TubsProductRegistry } from '../lib/product-cards/tubs-registry.js';  
+import { SaunasProductRegistry } from '../lib/product-cards/saunas-registry.js';
+
+// Jūsų esamas kodas lieka čia...
+
 function Calc({t}){
     const[type,setType]=useState('tub');
     const[mid,setMid]=useState('');
